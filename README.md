@@ -50,4 +50,66 @@ language descriptions, or example images.
 ├── 📜 requirements.txt       # Python dependencies
 ├── 📜 README.md              # Project documentation
 
+</pre>
 
+# 🔍 Visual Search Engine using Vision-Language Models (VLMs)
+
+## 🛠 Installation
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Krishnandu-Halder/Visual_Search_Engine_using_VLM.git
+cd Visual_Search_Engine_using_VLM
+
+🔹 Windows
+python -m venv venv
+venv\Scripts\activate
+
+🔹 Linux & Mac
+python3 -m venv venv
+source venv/bin/activate
+
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+🚀 Usage
+1️⃣ Extract Image Features
+python feature_extraction.py
+
+
+2️⃣ Run the Web Application
+streamlit run app.py
+
+3️⃣ Search via Command Line
+🔹 Find similar images using a query image:
+python search.py --query path/to/query_image.jpg
+
+
+🔹 Find images using text descriptions:
+
+python search.py --text "A cat sitting on a chair"
+
+
+🔧 Managing Virtual Environment
+🔹 Activate Virtual Environment
+Windows
+venv\Scripts\activate
+
+
+Linux & Mac
+source venv/bin/activate
+
+
+🔹 Deactivate Virtual Environment
+deactivate
+
+
+---
+
+✅ You can now copy and paste this into your `README.md`. Let me know if you'd like to:
+- Add a demo GIF or screenshots  
+- Include badges (stars, forks, etc.)  
+- Mention future upgrades (like CLIP or DINO)  
+
+Happy coding!
