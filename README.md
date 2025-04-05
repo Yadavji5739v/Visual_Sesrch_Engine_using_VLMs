@@ -8,7 +8,10 @@ A Visual Search Engine that uses Vision-Language Models (VLMs) for AI-powered im
 
 ### 🧠 Problem Statement
 
-Build a visual search system that efficiently retrieves relevant images using both image-based and text-based queries. The system uses deep learning models to generate feature embeddings and provides an intuitive interface for users.
+Develop a visual search engine that leverages vision-language models (VLMs) to retrieve 
+relevant images based on textual queries or sample images. The system should embed both text 
+and images into a shared representation space, allowing users to search via keywords, natural 
+language descriptions, or example images. 
 
 ---
 
@@ -23,23 +26,28 @@ Build a visual search system that efficiently retrieves relevant images using bo
 
 ---
 
-## 🚀 Implementation
+## 📌 Features
 
-### 1️⃣ Feature Extraction
+✅ **Image-based search** – Find visually similar images from a dataset  
+✅ **Text-based search** – Retrieve images using keywords or descriptions  
+✅ **Deep Learning-powered feature extraction** – Uses ResNet-18 for encoding  
+✅ **Fast similarity search** – Powered by precomputed image embeddings  
+✅ **Streamlit UI** – Clean, user-friendly and interactive interface
 
-- ResNet-18 used to extract image feature vectors.
-- Applied preprocessing: resizing, normalization, tensor conversion.
-- Stored embeddings for efficient search.
-
-### 2️⃣ Search Mechanism
-
-- **Image-based Search** using vector distances (cosine similarity / Euclidean).
-
-### 3️⃣ User Interface
-
-- Built with **Streamlit** for interactive image selection and similarity search.
 
 ---
 
 ## 📁 Project Structure
+
+<pre>
+
+📦 Visual_Search_Engine_using_VLM
+├── 📂 images/                # Sample image dataset for search
+├── 📂 models/                # Pre-trained models or saved embeddings
+├── 📜 app.py                 # Streamlit app to run the visual search engine
+├── 📜 feature_extraction.py  # Script to extract features from images using ResNet-18
+├── 📜 search.py              # Handles similarity search (image & text-based)
+├── 📜 requirements.txt       # Python dependencies
+├── 📜 README.md              # Project documentation
+
 
