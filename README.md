@@ -44,9 +44,8 @@ language descriptions, or example images.
 📦 Visual_Search_Engine_using_VLM
 ├── 📂 images/                # Sample image dataset for search
 ├── 📂 models/                # Pre-trained models or saved embeddings
-├── 📜 app.py                 # Streamlit app to run the visual search engine
-├── 📜 feature_extraction.py  # Script to extract features from images using ResNet-18
-├── 📜 search.py              # Handles similarity search (image & text-based)
+├── 📜 front_end.py                 # Streamlit app to run the visual search engine
+├── 📜 main.py  # Script to extract features from images using ResNet-18
 ├── 📜 requirements.txt       # Python dependencies
 ├── 📜 README.md              # Project documentation
 
