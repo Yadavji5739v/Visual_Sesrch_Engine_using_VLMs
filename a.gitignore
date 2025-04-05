@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+.env/
+
+# Ignore model files
+*.pt
+*.pth
+*.ckpt
+models/
+weights/
+
+# Ignore datasets and images
+images/
+dataset/
+flickr30k/
+*.jpg
+*.png
+
+# Cache or other temp files
+__pycache__/
+*.log
+*.zip
