@@ -107,9 +107,6 @@ deactivate
 
 ---
 
-✅ You can now copy and paste this into your `README.md`. Let me know if you'd like to:
-- Add a demo GIF or screenshots  
-- Include badges (stars, forks, etc.)  
-- Mention future upgrades (like CLIP or DINO)  
+ 
 
 Happy coding!
